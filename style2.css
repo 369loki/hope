@@ -1,0 +1,155 @@
+*{
+padding:0;
+margin:0;}
+.second{
+
+min-width:100%;
+
+display:flex;
+justify-content:center;}
+
+.pic{
+width:310px;
+height:310px;
+
+}
+
+.stuff{
+min-width:100%;
+height:600px;
+
+display:flex;
+justify-content:center;
+flex-direction:column;
+align-items:center;
+
+justify-content:space-evenly;}
+
+
+.last1{
+font-size:35px;
+
+text-align:center;
+
+font-family: 'Raleway', sans-serif;}
+
+.last2{
+font-size:28px;
+
+
+font-family: 'Raleway', sans-serif;}
+
+.percent{
+background:url("loveb.svg");
+width:120px;
+height:120px;
+ background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+ }
+.poda{
+ text-align:center;
+margin-top:20px;
+margin-left:13%;
+ font-size:50px;
+ font-family: 'Raleway', sans-serif;
+}
+
+.span{
+font-size:30px; 
+}
+
+
+footer{
+min-width:100%;
+height:80px;
+background:black;
+display:flex;
+align-items:center;
+justify-content:center;
+
+}
+.loki{
+font-size:20px;
+color:white;
+}
+.me{
+color:#41CBEC;
+font-family: 'Raleway', sans-serif;
+}body{background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+background-repeat:no-repeat;
+background-attachment:fixed;
+
+}
+
+
+
+@media only screen and (max-width: 480px){
+body{background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+background-repeat:no-repeat;
+background-attachment:fixed;
+
+}
+
+
+ 
+  
+.last1{
+font-size:26px;
+
+text-align:center;
+
+font-family: 'Raleway', sans-serif;}
+.last2{
+font-size:23px;
+
+
+font-family: 'Raleway', sans-serif;}
+.pic{
+width:270px;
+height:270px;
+border-radius:10px;
+}
+.poda{
+ text-align:center;
+margin-top:20%;
+margin-left:13%;
+ font-size:40px;
+ font-family: 'Raleway', sans-serif;
+ }
+
+.span{
+font-size:20px;
+}
+.percent{
+background:url("loveb.svg");
+width:100px;
+height:100px;
+ background-repeat: no-repeat;
+  background-size: 100% 100%;
+ }
+
+ .stuff{
+min-width:100%;
+min-height:100%;
+
+display:flex;
+justify-content:center;
+flex-direction:column;
+align-items:center;
+
+justify-content:space-around;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,277 @@
+*{
+padding:0;
+margin:0;}
+.container{
+height:350px;}
+
+
+.img { width:58px; height:55px;
+margin-top:34px;} 
+body{
+background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+background-repeat:no-repeat;
+background-attachment:fixed;
+
+}
+.title{
+min-width:100%; 
+font-size:60px;
+margin-top:30px;
+text-align:center;
+color:black;
+font-family: 'Parisienne', cursive;
+}
+.title1{
+min-width:100%; 
+font-size:20px;
+margin-top:30px;
+text-align:center;
+color:black;
+font-family:  'Poppins', sans-serif;
+}
+
+.whole{
+min-width:100%;
+height:125px;
+display:flex;
+
+justify-content:center;}
+
+.part{
+
+width:650px;
+height:125px;
+display:flex;
+justify-content:center;
+justify-content:space-evenly;
+
+margin-top:50px;
+}
+
+.p{
+font-family: 'Poppins', sans-serif;
+font-size:30px;}
+input{
+width:240px;
+height:50px;
+display:block;
+border-radius:10px;
+border:none;
+margin-top:8px;
+filter: drop-shadow(5px 5px 10px #666);
+font-size:20px;
+text-align:center;
+}
+ ::placeholder{
+font-size:16px;
+text-align:center;
+}
+
+.one{
+margin-left:33px;}
+.two{
+margin-left:33px;}
+
+.button{
+display:flex;
+justify-content:center;
+align-items:center;
+width:100%;
+}
+
+button{
+width:190px;
+height:55px;
+font-family: 'Poppins', sans-serif;
+font-size:19px;
+border-radius:10px;
+border:none;
+background:#e73c7e;
+filter: drop-shadow(5px 5px 10px #666);
+
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5);
+	
+	animation: gradient 15s ease infinite;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+}
+
+button:hover{
+background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);}
+button:active{
+width:183px;
+height:48px;
+font-size:16px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px)
+{ body{background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+background-repeat:no-repeat;
+background-attachment:fixed;
+min-height:600px;
+}
+.container{
+min-height:460px;}
+.second{
+height:810px;
+min-width:100%;
+display:none;
+display:flex;
+justify-content:center;}
+
+
+.button{
+display:flex;
+justify-content:center;
+align-items:center;
+width:100%}
+
+button{
+width:190px;
+height:55px;
+font-family: 'Poppins', sans-serif;
+font-size:19px;
+border-radius:10px;
+border:none;
+background:#e73c7e;
+filter: drop-shadow(5px 5px 10px #666);
+
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5);
+	
+	animation: gradient 15s ease infinite;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+}
+
+button:hover{
+background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);}
+button:active{
+width:183px;
+height:48px;
+font-size:16px;
+}
+.img { width:48px; height:45px;
+
+margin-bottom:18px;
+}
+.title{
+min-width:100%; 
+font-size:35px;
+margin-top:30px;
+text-align:center;
+color:black;
+font-family: 'Parisienne', cursive;
+
+}
+
+.title1{
+min-width:100%; 
+font-size:19px;
+margin-top:50px;
+text-align:center;
+color:black;
+font-family:  'Poppins', sans-serif;
+}
+
+.part{
+
+width:100vw;
+height:125px;
+display:flex;
+align-items:center;
+justify-content:center;
+justify-content:space-evenly;
+flex-direction:column;
+margin-top:90px;
+
+}
+
+
+.button{
+display:flex;
+justify-content:center;
+align-items:center;
+min-width:100%;
+}
+
+button{
+width:183px;
+height:48px;
+
+font-family: 'Poppins', sans-serif;
+font-size:16px;
+border-radius:10px;
+border:none;
+background:#e73c7e;
+filter: drop-shadow(5px 5px 10px #666);
+
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5);
+	
+	animation: gradient 15s ease infinite;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+}
+} 
+
+button:hover{
+background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);}
+button:active{
+width:177px;
+height:42px;
+font-size:14px;
+}
+.p{
+font-family: 'Poppins', sans-serif;
+font-size:25px;
+margin-left:50px;}
+
+
+
+
+  
+ 
+}
