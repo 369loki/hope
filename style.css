@@ -214,7 +214,7 @@ align-items:center;
 justify-content:center;
 justify-content:space-evenly;
 flex-direction:column;
-margin-top:90px;
+margin-top:10%;
 
 }
 
@@ -229,13 +229,13 @@ min-width:100%;
 button{
 width:183px;
 height:48px;
-
 font-family: 'Poppins', sans-serif;
 font-size:16px;
 border-radius:10px;
 border:none;
 background:#e73c7e;
 filter: drop-shadow(5px 5px 10px #666);
+margin-top:2%;
 
 background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5);
 	
@@ -268,10 +268,3 @@ font-size:14px;
 font-family: 'Poppins', sans-serif;
 font-size:25px;
 margin-left:50px;}
-
-
-
-
-  
- 
-}
