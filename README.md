@@ -1,1 +1,3 @@
-SiteLink: https://369loki.github.io/luvcalce/
+# Love Calculator
+SiteLink: https://thelokesha.github.io/luvcalce/
+
